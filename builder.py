@@ -49,7 +49,7 @@ def main(scenario_path, static_path, templates_path, out_path):
 
     print("Creating quest tree")
     frames = scenario["quest_frames"]
-    images = scenario["quest_images"]
+    images = scenario.get("quest_images", {})
 
     for frame_name, frame in frames.items():
         image_path = images.get(frame.get("image", None), None)

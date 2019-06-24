@@ -10,11 +10,6 @@ quest_info:
 
 quest_cover: "img/cover.jpg"
 
-quest_images:
-  frame1: "img/frame1.jpg"
-  frame2: "img/frame2.jpg"
-  frame3: "img/frame3.jpg"
-
 quest_frames:
   begin:
     text: "Вы идете по улице Ленина, измотанный и изнеможденный"
