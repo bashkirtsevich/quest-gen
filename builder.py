@@ -68,4 +68,4 @@ def main(scenario_path, static_path, templates_path, out_path):
 
 
 if __name__ == '__main__':
-    main("scenario/quest1.yml", "static", "templates", "quests")
+    main("scenario/pdh_quest.yml", "static", "templates", "quests")

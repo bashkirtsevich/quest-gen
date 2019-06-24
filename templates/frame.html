@@ -40,7 +40,7 @@
               {% endif %}
 
               <div class="details mt-20">
-                <p>{{ frame.text }}</p>
+                <p>{{ frame.text|replace("\n", "<br>")|replace("\r", "<br>") }}</p>
                 <div class="text-center">
                   {% for btn in frame.buttons %}
                   <a class="button" href="{{ btn.frame }}.html">{{ btn.title }}</a>
